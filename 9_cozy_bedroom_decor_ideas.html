@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <title>9 Cozy Bedroom Decor Ideas | Home Muse</title>
+    <meta name="description" content="Transform your bedroom into a warm sanctuary with these 9 cozy decor ideas, featuring Amazon picks.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Tag Manager (Analytics) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-92TVVJ42TQW"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag("js", new Date());
+        gtag("config", "G-92TVVJ42TQW");
+    </script>
+    
+    <!-- Tailwind Custom Configuration -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#000000",
+                        "primary-foreground": "#FFFFFF",
+                        secondary: "#1F1F1F",
+                        "secondary-foreground": "#FFFFFF",
+                        accent: "#C5A059", // Gold accent for buttons
+                    },
+                    animation: {
+                        "fade-in": "fadeIn 1s ease-out",
+                        "bounce-slow": "bounce 2s infinite",
+                    },
+                    keyframes: {
+                        fadeIn: {
+                            "0%": { opacity: "0", transform: "translateY(20px)" },
+                            "100%": { opacity: "1", transform: "translateY(0)" },
+                        },
+                        bounce: {
+                            "0%, 100%": { transform: "translateY(0)" },
+                            "50%": { transform: "translateY(-10px)" },
+                        },
+                    },
+                }
+            }
+        }
+    </script>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            background-color: #000000;
+            color: #FFFFFF;
+            scroll-behavior: smooth;
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
+            font-family: "Playfair Display", serif;
+            font-weight: 700;
+            letter-spacing: 0.05em;
+        }
+        
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #1a1a1a;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #444;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #666;
+        }
+        
+        /* Affiliate Disclosure Banner */
+        .affiliate-disclosure {
+            background: #111;
+            font-size: 0.75rem;
+            color: #888;
+            padding: 0.5rem 1rem;
+            text-align: center;
+            border-bottom: 1px solid #222;
+        }
+
+        /* Blog Post Specific Styles */
+        .blog-content h2 {
+            font-size: 2.5rem;
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+            color: #FFF;
+        }
+        .blog-content h3 {
+            font-size: 2rem;
+            margin-top: 2rem;
+            margin-bottom: 0.75rem;
+            color: #FFF;
+        }
+        .blog-content p {
+            margin-bottom: 1rem;
+            line-height: 1.75;
+            color: #D1D5DB; /* gray-300 */
+        }
+        .blog-content ul {
+            list-style-type: disc;
+            margin-left: 1.5rem;
+            margin-bottom: 1rem;
+            color: #D1D5DB;
+        }
+        .blog-content ol {
+            list-style-type: decimal;
+            margin-left: 1.5rem;
+            margin-bottom: 1rem;
+            color: #D1D5DB;
+        }
+        .blog-content a {
+            color: #C5A059; /* accent color */
+            text-decoration: underline;
+        }
+        .blog-content img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 1.5rem;
+            margin-bottom: 1.5rem;
+            border-radius: 0.5rem;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+        .amazon-product-box {
+            background-color: #1a1a1a;
+            border: 1px solid #333;
+            border-radius: 0.5rem;
+            padding: 1.5rem;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .amazon-product-box img {
+            max-width: 150px;
+            height: auto;
+            margin-bottom: 1rem;
+            border-radius: 0.25rem;
+        }
+        .amazon-product-box h4 {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            color: #FFF;
+        }
+        .amazon-product-box p {
+            font-size: 0.9rem;
+            color: #BBB;
+            margin-bottom: 1rem;
+        }
+        .amazon-product-box .shop-button {
+            background-color: #C5A059;
+            color: #000;
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.25rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            transition: background-color 0.3s ease;
+        }
+        .amazon-product-box .shop-button:hover {
+            background-color: #D4AF37;
+        }
+    </style>
+</head>
+<body class="bg-black text-white antialiased">
+    <!-- Affiliate Disclosure Banner -->
+    <div class="affiliate-disclosure">
+        As an Amazon Associate I earn from qualifying purchases.
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="fixed w-full top-0 z-50 transition-all duration-500 py-2 mt-8" id="header">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex justify-between items-center">
+            <div class="text-2xl sm:text-3xl font-bold tracking-widest cursor-pointer" onclick="window.location.href=\'index.html#home\'">
+                <span class="text-white">HOME</span>
+                <span class="text-gray-400">MUSE</span>
+            </div>
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="index.html#home" class="text-sm font-semibold uppercase tracking-[0.2em] hover:text-gray-400 transition-colors">Home</a>
+                <a href="index.html#blog" class="text-sm font-semibold uppercase tracking-[0.2em] hover:text-gray-400 transition-colors">Blog</a>
+                <a href="index.html#shop" class="text-sm font-semibold uppercase tracking-[0.2em] hover:text-gray-400 transition-colors text-accent">Shop Picks</a>
+                <a href="index.html#contact" class="text-sm font-semibold uppercase tracking-[0.2em] hover:text-gray-400 transition-colors">Contact</a>
+            </div>
+            <div class="md:hidden">
+                <button class="text-white focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-20 mt-16">
+        <article class="blog-content">
+            <h1 class="text-5xl sm:text-6xl font-bold text-white mb-6 leading-tight">9 Cozy Bedroom Decor Ideas to Create Your Sanctuary</h1>
+            <p class="text-gray-500 text-sm mb-8">By Home Muse Team | July 26, 2026</p>
+            
+            <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663253193157/WadLAdUEtJXskCLv.png" alt="Cozy Bedroom Decor" class="w-full object-cover rounded-lg mb-8">
+
+            <p>Your bedroom should be a haven, a place where you can unwind, relax, and feel completely at peace. Creating a cozy and aesthetic bedroom doesn't require a complete overhaul; often, it's the small details that make the biggest difference. Here are 9 ideas to transform your sleeping space into a warm and inviting sanctuary.</p>
+
+            <h2>1. Layer with Plush Textiles</h2>
+            <p>Nothing screams cozy like an abundance of soft textures. Think chunky knit blankets, faux fur throws, and velvet pillows. Layering different materials adds depth and warmth, making your bed irresistible. Choose neutral tones or muted colors for a serene aesthetic.</p>
+            <div class="amazon-product-box">
+                <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663253193157/WadLAdUEtJXskCLv.png" alt="Chunky Knit Blanket">
+                <h4>Chunky Knit Throw Blanket</h4>
+                <p>Add instant warmth and texture to your bed or sofa.</p>
+                <a href="#" class="shop-button">Check Price on Amazon</a>
+            </div>
+
+            <h2>2. Embrace Warm Lighting</h2>
+            <p>Harsh overhead lighting can ruin any cozy vibe. Opt for multiple sources of soft, warm light. Fairy lights draped over your headboard, bedside lamps with dimmers, or even a salt lamp can create a magical, inviting glow.</p>
+            <div class="amazon-product-box">
+                <img src="https://m.media-amazon.com/images/I/71e-q-L-QyL._AC_SL1500_.jpg" alt="Fairy Lights">
+                <h4>USB Powered Fairy String Lights</h4>
+                <p>Perfect for adding a soft, ambient glow to any space.</p>
+                <a href="#" class="shop-button">Check Price on Amazon</a>
+            </div>
+
+            <h2>3. Add a Soft Rug</h2>
+            <p>A plush rug underfoot instantly makes a room feel warmer and more luxurious. Whether it's a large area rug that anchors your bed or smaller sheepskin rugs on either side, the added texture and insulation will elevate your cozy factor.</p>
+
+            <h2>4. Incorporate Natural Elements</h2>
+            <p>Bring the outdoors in with plants, wooden accents, and natural fibers. A small potted plant on your bedside table, a wooden tray for your morning coffee, or linen bedding can add an organic, calming touch to your bedroom.</p>
+
+            <h2>5. Create a Scented Atmosphere</h2>
+            <p>Engage your sense of smell with calming scents. Diffusers with essential oils like lavender or chamomile, scented candles, or even a linen spray can help you relax and drift off to sleep.</p>
+            <div class="amazon-product-box">
+                <img src="https://m.media-amazon.com/images/I/71g0k+g-XPL._AC_SL1500_.jpg" alt="Lavender Essential Oil Diffuser">
+                <h4>Aromatherapy Essential Oil Diffuser</h4>
+                <p>Create a serene atmosphere with your favorite essential oils.</p>
+                <a href="#" class="shop-button">Check Price on Amazon</a>
+            </div>
+
+            <h2>6. Declutter for Peace of Mind</h2>
+            <p>A cluttered space can lead to a cluttered mind. Keep your bedroom tidy and organized. Invest in smart storage solutions to hide away anything that doesn't contribute to your serene environment.</p>
+
+            <h2>7. Personalize with Art and Photos</h2>
+            <p>Make your bedroom uniquely yours by displaying art that speaks to you or cherished photographs. These personal touches add character and make the space feel more intimate and comforting.</p>
+
+            <h2>8. Consider a Canopy or Drapes</h2>
+            <p>A canopy bed or even sheer drapes around your bed can create a sense of enclosure and privacy, enhancing the feeling of a cozy retreat. It adds a touch of romantic elegance and softness.</p>
+
+            <h2>9. Add a Comfortable Seating Area</h2>
+            <p>If space allows, a small armchair or a plush bench at the foot of your bed can provide a perfect spot for reading or quiet reflection, further enhancing the functionality and coziness of your bedroom.</p>
+            <div class="amazon-product-box">
+                <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663253193157/fwNodTtNyAgheghn.png" alt="Velvet Armchair">
+                <h4>Plush Velvet Accent Chair</h4>
+                <p>Perfect for a reading corner or extra seating in your cozy bedroom.</p>
+                <a href="#" class="shop-button">Check Price on Amazon</a>
+            </div>
+
+            <p>By implementing even a few of these ideas, you can transform your bedroom into a truly cozy and aesthetic sanctuary, perfect for rest and rejuvenation. Happy decorating!</p>
+
+            <div class="amazon-product-box">
+                <h4>Ready to create your cozy space?</h4>
+                <p>Explore our hand-picked Amazon essentials to bring these ideas to life!</p>
+                <a href="index.html#shop" class="shop-button">Shop All Cozy Decor</a>
+            </div>
+        </article>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-black border-t border-gray-800 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div class="mb-4">
+                <p class="text-2xl font-bold tracking-widest cursor-pointer inline-block" onclick="window.location.href=\'index.html#home\'">
+                    <span class="text-white">HOME</span>
+                    <span class="text-gray-600">MUSE</span>
+                </p>
+            </div>
+            <p class="text-gray-600 text-sm tracking-wide italic">Inspiration Lives Here.</p>
+            <p class="text-gray-600 text-xs mt-4">© 2026 Home Muse. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Main Scripts -->
+    <script>
+        const header = document.getElementById("header");
+        
+        window.scrollToTop = function() {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        };
+        
+        // Header scroll effect
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 50) {
+                header.classList.add("header-scrolled");
+            } else {
+                header.classList.remove("header-scrolled");
+            }
+        });
+        
+        // Smooth scroll for all anchor links
+        document.querySelectorAll("a[href^=\"#\"]").forEach(anchor => {
+            anchor.addEventListener("click", function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute("href");
+                document.querySelector(targetId)?.scrollIntoView({ behavior: "smooth" });
+            });
+        });
+    </script>
+</body>
+</html>
