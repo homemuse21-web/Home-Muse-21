@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google Analytics 4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-92TVVJ42TQW"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-92TVVJ42TQW');
+</script>
+<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes" />
+    <title>Home Muse | Aesthetic Decor & Amazon Affiliate Guide</title>
+    <meta name="description" content="Home Muse — Your guide to aesthetic and cozy home decor. Shop our curated Amazon affiliate picks." />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet" />
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com">
+    </script>
+
+    <!-- Google Tag Manager (Analytics) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-92TVVJ42TQW">
+    </script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-92TVVJ42TQW');
+    </script>
+
+    <!-- Tailwind Custom Configuration -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#000000',
+                        'primary-foreground': '#FFFFFF',
+                        secondary: '#1F1F1F',
+                        'secondary-foreground': '#FFFFFF',
+                        accent: '#C5A059',
+                    },
+                    animation: {
+                        'fade-in': 'fadeIn 1s ease-out',
+                        'bounce-slow': 'bounce 2s infinite',
+                    },
+                    keyframes: {
+                        fadeIn: {
+                            '0%': { opacity: '0', transform: 'translateY(20px)' },
+                            '100%': { opacity: '1', transform: 'translateY(0)' },
+                        },
+                        bounce: {
+                            '0%, 100%': { transform: 'translateY(0)' },
+                            '50%': { transform: 'translateY(-10px)' },
+                        },
+                    },
+                }
+            }
+        }
+    </script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background-color: #000000;
+            color: #FFFFFF;
+            scroll-behavior: smooth;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: 'Playfair Display', serif;
+            font-weight: 700;
+            letter-spacing: 0.05em;
+        }
+
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #1a1a1a;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #444;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #666;
+        }
+
+        .gallery-img {
+            transition: transform 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        }
+        .group:hover .gallery-img {
+            transform: scale(1.08);
+        }
+
+        .hero-parallax {
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        @media (max-width: 768px) {
+            .hero-parallax {
+                background-attachment: scroll;
+            }
+        }
+
+        .header-scrolled {
+            background: rgba(0, 0, 0, 0.92);
+            backdrop-filter: blur(12px);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .affiliate-disclosure {
+            background: #111;
+            font-size: 0.75rem;
+            color: #888;
+            padding: 0.5rem 1rem;
+            text-align: center;
+            border-bottom: 1px solid #222;
+        }
+    </style>
+</head>
+
+<body class="bg-black text-white antialiased">
+   
+    <!-- Navigation Header -->
+    <header class="fixed w-full top-0 z-50 transition-all duration-500 py-2 mt-8" id="header">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex justify-between items-center">
+            <div class="text-2xl sm:text-3xl font-bold tracking-widest cursor-pointer" onclick="scrollToTop()">
+                <span class="text-white">HOME</span>
+                <span class="text-gray-400">MUSE</span>
+            </div>
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="#home" class="text-sm font-semibold uppercase tracking-[0.2em] hover:text-gray-400 transition-colors">Home</a>
+               
+                <a href="#inspiration" class="text-sm font-semibold uppercase tracking-[0.2em] hover:text-gray-400 transition-colors text-accent">Inspiration
+                
+                </a>
+                <a href="#contact" class="text-sm font-semibold uppercase tracking-[0.2em] hover:text-gray-400 transition-colors">Contact</a>
+            </div>
+            <div class="md:hidden">
+                <button class="text-white focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" /></svg>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative w-full h-screen flex items-center justify-center overflow-hidden">
+        <div class="absolute inset-0 hero-parallax" style="background-image: url('https://files.manuscdn.com/user_upload_by_module/session_file/310519663253193157/LNrhHmmVOywUAYiL.png');"></div>
+        <div class="absolute inset-0 bg-gradient-to-b from-black/50 via-black/60 to-black/80"></div>
+
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center animate-fade-in">
+            <h1 class="text-5xl sm:text-7xl lg:text-8xl font-bold text-white mb-6 uppercase tracking-widest leading-tight">
+                Aesthetic <br /> Living
+            </h1>
+            <p class="text-base sm:text-xl lg:text-2xl font-light tracking-wide max-w-3xl mx-auto mb-10 text-gray-200">
+                Curated inspiration for a cozy and beautiful home.
+            </p>
+            <button onclick="scrollToBlog()" class="group inline-flex items-center gap-3 text-white hover:text-accent transition-all duration-300 border-b border-white/30 hover:border-accent pb-1">
+                <span class="text-sm font-semibold uppercase tracking-[0.2em]">Explore the Blog</span>
+                <svg class="w-5 h-5 animate-bounce-slow" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+                </svg>
+            </button>
+        </div>
+    </section>
+
+    <!-- Blog Section (7 Cozy & Aesthetic Blogs) -->
+    <section id="blog" class="py-20 sm:py-28 lg:py-36 bg-black">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl sm:text-6xl lg:text-7xl font-bold text-white mb-14 uppercase tracking-widest">
+                Latest Insights
+            </h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12">
+
+                <!-- Blog 1: 9 Cozy Bedroom Decor -->
+                <div class="group overflow-hidden shadow-2xl hover:shadow-white/10 transition-all duration-500 bg-gray-900 flex flex-col h-full">
+                    <div class="overflow-hidden">
+                        <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663253193157/WadLAdUEtJXskCLv.png" alt="9 Cozy Bedroom Decor" class="gallery-img w-full h-64 object-cover transition-transform duration-700" loading="lazy" />
+                    </div>
+                    <div class="p-8 flex-grow flex flex-col">
+                        <h3 class="text-xl font-bold text-white mb-3 uppercase tracking-widest">9 Cozy Bedroom Decor Ideas</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed tracking-wide mb-6">Transform your sleeping space into a warm sanctuary with chunky knits, soft lighting, and layers of texture.</p>
+                        <a href="9_cozy_bedroom_decor_ideas.html" class="mt-auto text-xs font-bold uppercase tracking-widest text-accent border-b border-accent/20 w-max pb-1 hover:border-accent transition-colors">Read More →</a>
+                    </div>
+                </div>
+
+                <!-- Blog 2: 7 Reading Nook Ideas -->
+                <div class="group overflow-hidden shadow-2xl hover:shadow-white/10 transition-all duration-500 bg-gray-900 flex flex-col h-full">
+                    <div class="overflow-hidden">
+                        <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663253193157/fwNodTtNyAgheghn.png" alt="7 Reading Nook Ideas" class="gallery-img w-full h-64 object-cover transition-transform duration-700" loading="lazy" />
+                    </div>
+                    <div class="p-8 flex-grow flex flex-col">
+                        <h3 class="text-xl font-bold text-white mb-3 uppercase tracking-widest">7 Reading Nook Ideas</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed tracking-wide mb-6">Create the perfect corner for your bookish escapes with plush armchairs and warm ambient lighting.</p>
+                        <a href="7_reading_nook_ideas.html" class="mt-auto text-xs font-bold uppercase tracking-widest text-accent border-b border-accent/20 w-max pb-1 hover:border-accent transition-colors">Read More →</a>
+                    </div>
+                </div>
+
+                <!-- Blog 3: Renovation Under $500 -->
+                <div class="group overflow-hidden shadow-2xl hover:shadow-white/10 transition-all duration-500 bg-gray-900 flex flex-col h-full">
+                    <div class="overflow-hidden">
+                        <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663253193157/PpjraPzWfoRlDZvx.png" alt="Renovation Under $500" class="gallery-img w-full h-64 object-cover transition-transform duration-700" loading="lazy" />
+                    </div>
+                    <div class="p-8 flex-grow flex flex-col">
+                        <h3 class="text-xl font-bold text-white mb-3 uppercase tracking-widest">Renovation Under $500</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed tracking-wide mb-6">How to give your kitchen or bathroom a high-end look without breaking the bank using budget-friendly Amazon finds.</p>
+                        <a href="renovation_under_500.html" class="mt-auto text-xs font-bold uppercase tracking-widest text-accent border-b border-accent/20 w-max pb-1 hover:border-accent transition-colors">Read More →</a>
+                    </div>
+                </div>
+
+                <!-- Blog 4: Minimalist Living Essentials -->
+                <div class="group overflow-hidden shadow-2xl hover:shadow-white/10 transition-all duration-500 bg-gray-900 flex flex-col h-full">
+                    <div class="overflow-hidden">
+                        <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663253193157/LNrhHmmVOywUAYiL.png" alt="Minimalist Living" class="gallery-img w-full h-64 object-cover transition-transform duration-700" loading="lazy" />
+                    </div>
+                    <div class="p-8 flex-grow flex flex-col">
+                        <h3 class="text-xl font-bold text-white mb-3 uppercase tracking-widest">Minimalist Living Essentials</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed tracking-wide mb-6">Master the art of "less is more" with curated furniture and decor that bring peace to your living room.</p>
+                        <a href="minimalist_living_essentials.html" class="mt-auto text-xs font-bold uppercase tracking-widest text-accent border-b border-accent/20 w-max pb-1 hover:border-accent transition-colors">Read More →</a>
+                    </div>
+                </div>
+
+                <!-- Blog 5: Cottagecore Kitchen Refresh -->
+                <div class="group overflow-hidden shadow-2xl hover:shadow-white/10 transition-all duration-500 bg-gray-900 flex flex-col h-full">
+                    <div class="overflow-hidden">
+                        <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663253193157/qfGoMBihMnyOYaIn.png" alt="Cottagecore Kitchen" class="gallery-img w-full h-64 object-cover transition-transform duration-700" loading="lazy" />
+                    </div>
+                    <div class="p-8 flex-grow flex flex-col">
+                        <h3 class="text-xl font-bold text-white mb-3 uppercase tracking-widest">Cottagecore Kitchen Refresh</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed tracking-wide mb-6">Bring rustic charm to your kitchen with open shelving, vintage rugs, and terracotta herb gardens.</p>
+                        <a href="cottagecore_kitchen_refresh.html" class="mt-auto text-xs font-bold uppercase tracking-widest text-accent border-b border-accent/20 w-max pb-1 hover:border-accent transition-colors">Read More →</a>
+                    </div>
+                </div>
+
+                <!-- Blog 6: Aesthetic Workspace Setup -->
+                <div class="group overflow-hidden shadow-2xl hover:shadow-white/10 transition-all duration-500 bg-gray-900 flex flex-col h-full">
+                    <div class="overflow-hidden">
+                        <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663253193157/rFqRoKNIjmyMCWnM.png" alt="Aesthetic Workspace" class="gallery-img w-full h-64 object-cover transition-transform duration-700" loading="lazy" />
+                    </div>
+                    <div class="p-8 flex-grow flex flex-col">
+                        <h3 class="text-xl font-bold text-white mb-3 uppercase tracking-widest">Aesthetic Workspace Setup</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed tracking-wide mb-6">Boost your productivity with a clean, minimalist desk setup that looks as good as it functions.</p>
+                        <a href="aesthetic_workspace_setup.html" class="mt-auto text-xs font-bold uppercase tracking-widest text-accent border-b border-accent/20 w-max pb-1 hover:border-accent transition-colors">Read More →</a>
+                    </div>
+                </div>
+
+                <!-- Blog 7: Cozy Outdoor Balcony -->
+                <div class="group overflow-hidden shadow-2xl hover:shadow-white/10 transition-all duration-500 bg-gray-900 flex flex-col h-full">
+                    <div class="overflow-hidden">
+                        <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663253193157/ixtaazXyFhhaItuj.png" alt="Outdoor Balcony" class="gallery-img w-full h-64 object-cover transition-transform duration-700" loading="lazy" />
+                    </div>
+                    <div class="p-8 flex-grow flex flex-col">
+                        <h3 class="text-xl font-bold text-white mb-3 uppercase tracking-widest">Cozy Outdoor Balcony Vibes</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed tracking-wide mb-6">Even small spaces can be magical. Discover how to style your balcony with string lights and floor cushions.</p>
+                        <a href="cozy_outdoor_balcony_vibes.html" class="mt-auto text-xs font-bold uppercase tracking-widest text-accent border-b border-accent/20 w-max pb-1 hover:border-accent transition-colors">Read More →</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Shop Picks Section (Product Grid Strategy) -->
+    <section id="shop" class="py-20 sm:py-28 bg-gray-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-white mb-10 uppercase tracking-widest text-center">Curated Amazon Picks</h2>
+            <p class="text-gray-400 text-center mb-16 max-w-2xl mx-auto">Hand-selected items to help you achieve the aesthetic look in your own home.</p>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                <!-- Product 1 -->
+                <div class="bg-black p-4 rounded-lg border border-gray-800 hover:border-accent transition-colors">
+                    <div class="aspect-square bg-gray-800 mb-4 overflow-hidden">
+                        <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663253193157/WadLAdUEtJXskCLv.png" class="w-full h-full object-cover opacity-70" alt="Chunky Knit Blanket" />
+                    </div>
+                    <h4 class="text-sm font-bold uppercase tracking-widest mb-2">Chunky Knit Blanket</h4>
+                    <p class="text-accent text-sm font-bold mb-3">Check Price on Amazon</p>
+                    <a href="#" class="block w-full text-center py-2 bg-accent text-black text-xs font-bold uppercase tracking-widest">Shop Now</a>
+                </div>
+                <!-- Product 2 -->
+                <div class="bg-black p-4 rounded-lg border border-gray-800 hover:border-accent transition-colors">
+                    <div class="aspect-square bg-gray-800 mb-4 overflow-hidden">
+                        <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663253193157/fwNodTtNyAgheghn.png" class="w-full h-full object-cover opacity-70" alt="Velvet Armchair" />
+                    </div>
+                    <h4 class="text-sm font-bold uppercase tracking-widest mb-2">Velvet Armchair</h4>
+                    <p class="text-accent text-sm font-bold mb-3">Check Price on Amazon</p>
+                    <a href="#" class="block w-full text-center py-2 bg-accent text-black text-xs font-bold uppercase tracking-widest">Shop Now</a>
+                </div>
+                <!-- Product 3 -->
+                <div class="bg-black p-4 rounded-lg border border-gray-800 hover:border-accent transition-colors">
+                    <div class="aspect-square bg-gray-800 mb-4 overflow-hidden">
+                        <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663253193157/qfGoMBihMnyOYaIn.png" class="w-full h-full object-cover opacity-70" alt="Ceramic Mug Set" />
+                    </div>
+                    <h4 class="text-sm font-bold uppercase tracking-widest mb-2">Ceramic Mug Set</h4>
+                    <p class="text-accent text-sm font-bold mb-3">Check Price on Amazon</p>
+                    <a href="#" class="block w-full text-center py-2 bg-accent text-black text-xs font-bold uppercase tracking-widest">Shop Now</a>
+                </div>
+                <!-- Product 4 -->
+                <div class="bg-black p-4 rounded-lg border border-gray-800 hover:border-accent transition-colors">
+                    <div class="aspect-square bg-gray-800 mb-4 overflow-hidden">
+                        <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663253193157/ixtaazXyFhhaItuj.png" class="w-full h-full object-cover opacity-70" alt="String Lights" />
+                    </div>
+                    <h4 class="text-sm font-bold uppercase tracking-widest mb-2">Outdoor String Lights</h4>
+                    <p class="text-accent text-sm font-bold mb-3">Check Price on Amazon</p>
+                    <a href="#" class="block w-full text-center py-2 bg-accent text-black text-xs font-bold uppercase tracking-widest">Shop Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-black">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl font-bold text-white mb-8 uppercase tracking-widest">Get In Touch</h2>
+            <p class="text-gray-400 max-w-xl mx-auto mb-10">Have questions about our decor picks or want to collaborate? Reach out below.</p>
+            <a href="mailto:hello@homemuse.com" class="inline-block bg-white text-black px-10 py-4 font-bold uppercase tracking-widest hover:bg-gray-200 transition-colors">Email Us</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black border-t border-gray-800 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div class="mb-4">
+                <p class="text-2xl font-bold tracking-widest cursor-pointer inline-block" onclick="scrollToTop()">
+                    <span class="text-white">HOME</span>
+                    <span class="text-gray-600">MUSE</span>
+                </p>
+            </div>
+            <p class="text-gray-600 text-sm tracking-wide italic">Inspiration Lives Here.</p>
+            <p class="text-gray-600 text-xs mt-4">© 2026 Home Muse. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Main Scripts -->
+    <script>
+        const header = document.getElementById('header');
+
+        window.scrollToTop = function() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        };
+
+        window.scrollToBlog = function() {
+            const blogSection = document.getElementById('blog');
+            if (blogSection) {
+                blogSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        };
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                header.classList.add('header-scrolled');
+            } else {
+                header.classList.remove('header-scrolled');
+            }
+        });
+
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                document.querySelector(targetId)?.scrollIntoView({ behavior: 'smooth' });
+            })
+        });
+    </script>
+</body>
+</html>
